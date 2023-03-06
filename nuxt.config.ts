@@ -8,13 +8,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "WhatsApp Link Generator ¦ Jhon Designee",
-      script: [
-        {
-          src: "https://cdn.jsdelivr.net/npm/eruda",
-          onLoad: "eruda.init()"
-        }
-      ]
+      title: "WhatsApp Link Generator ¦ Jhon Designee"
     }
   },
   ignore: [
